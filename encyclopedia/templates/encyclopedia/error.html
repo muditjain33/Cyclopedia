@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Error 404
+{% endblock %}
+
+{% block body %}
+    <h1>Error 404</h1>
+
+    <h2>Your requested page is not found but you can still create a new one using this name or visit <a href="{% url 'index' %}">available pages</a></h2>
+
+{% endblock %}
